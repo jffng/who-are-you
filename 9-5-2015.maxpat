@@ -38,12 +38,24 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 563.0, 625.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "0.7"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-46",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 240.0, 1221.75, 77.0, 20.0 ],
-					"presentation_rect" : [ 240.0, 1221.75, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "who are you"
 				}
@@ -56,7 +68,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 139.0, 1221.75, 77.0, 20.0 ],
-					"presentation_rect" : [ 100.0, 1164.75, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "are you you"
 				}
@@ -212,7 +223,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1392.0, 657.0, 71.0, 22.0 ],
-					"presentation_rect" : [ 1392.0, 657.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "read 01.jpg"
 				}
@@ -282,22 +292,6 @@
 					"patching_rect" : [ 563.0, 690.0, 89.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend param"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.934731,
-					"format" : 6,
-					"id" : "obj-129",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 563.0, 621.0, 50.0, 22.0 ],
-					"style" : ""
 				}
 
 			}
@@ -2291,15 +2285,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-130", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-129", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2327,10 +2312,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-129", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 459.5, 612.0, 572.5, 612.0 ],
 					"source" : [ "obj-132", 0 ]
 				}
 
@@ -2341,6 +2325,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-132", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-130", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
