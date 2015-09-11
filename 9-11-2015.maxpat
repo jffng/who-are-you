@@ -402,7 +402,7 @@
 					"presentation_linecount" : 19,
 					"presentation_rect" : [ 38.0, 61.5, 597.0, 516.0 ],
 					"style" : "",
-					"text" : "1. Ensure all devices are connected: camera, Yeti, and barcode reader.\n\n2. Double click the 'adc~' to ensure Yeti Stereo Mic is selected as the Input Device. \n\n(You may also need to open the Sound preferences and select the Yeti for the input device.)\n\n3. Open the webcam.\n\n4. Toggle the Start button on.\n\n5. Hit Reset button.\n\n6. Adjust recording + playback volume as necessary. \n\n7. Drag the window to the appropriate display, unless mirroring. Hit the esc key to toggle full screen."
+					"text" : "1. Ensure all devices are connected: camera, Yeti, and barcode reader.\n\n2. Double click the 'adc~' to ensure Yeti Stereo Mic is selected as the Input Device. \n\n(You may also need to open the Sound preferences and select the Yeti for the input device.)\n\n3. Open the camera.\n\n4. Toggle the Start button on.\n\n5. Hit Reset button.\n\n6. Adjust recording + playback volume as necessary. \n\n7. Drag the window to the appropriate display, unless mirroring. Hit the esc key to toggle full screen."
 				}
 
 			}
@@ -5397,7 +5397,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 143.5, 538.5, 482.0, 22.0 ],
 					"style" : "",
-					"text" : "write /Users/administrator/Documents/who-are-you/video/youareyou-9-10--10.2.14.mov"
+					"text" : "write /Users/administrator/Documents/who-are-you/video/youareyou-9-10--10.17.30.mov"
 				}
 
 			}
