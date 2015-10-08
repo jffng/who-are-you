@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1116.0, 783.0 ],
+		"rect" : [ 1474.0, 79.0, 1702.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -93,7 +93,98 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-22",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 742.0, 33.0, 24.0, 24.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 728.0, 119.0, 99.0, 22.0 ],
+									"style" : "",
+									"text" : "index~ script-1 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 326.0, 33.0, 77.0, 22.0 ],
+									"style" : "",
+									"text" : "read script-1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "float", "bang" ],
+									"patching_rect" : [ 605.0, 83.0, 48.0, 22.0 ],
+									"presentation_rect" : [ 605.0, 83.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "buffer~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "float", "bang" ],
+									"patching_rect" : [ 429.0, 83.0, 48.0, 22.0 ],
+									"presentation_rect" : [ 466.0, 83.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "buffer~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "float", "bang" ],
+									"patching_rect" : [ 326.0, 96.0, 91.0, 22.0 ],
+									"style" : "",
+									"text" : "buffer~ script-1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "ezdac~",
+									"numinlets" : 2,
+									"numoutlets" : 0,
+									"patching_rect" : [ 712.5, 209.5, 45.0, 45.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-17",
 									"maxclass" : "newobj",
@@ -2061,6 +2152,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2119,6 +2219,24 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-150", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-16", 0 ]
 								}
 
 							}
@@ -11954,7 +12072,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 401.5, 241.0, 74.0, 22.0 ],
 									"style" : "",
-									"text" : "youareyou"
+									"text" : "whoareyou"
 								}
 
 							}
@@ -12493,7 +12611,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 143.5, 538.5, 482.0, 22.0 ],
 					"style" : "",
-					"text" : "write /Users/administrator/Documents/who-are-you/video/youareyou-9-27--13.8.23.mov"
+					"text" : "write /Users/administrator/Documents/who-are-you/video/areyouyou-10-7--21.22.2.mov"
 				}
 
 			}
